@@ -7,4 +7,4 @@
 5. Run as a spring boot app (in STS)
 
 # Endpoints
-1. http://localhost:8080/mediaDrop/bag/bag_name
+1. http://localhost:8080/mediaDrop/bag/bag_name - to get the assets of a bag
