@@ -7,9 +7,9 @@
 5. Run as a spring boot app (in STS)
 
 # Endpoints
-1. http://<host>/mediaDrop/bag/bag_name - to get the assets of a bag
+1. `http://<host>/mediaDrop/bag/bag_name` - to get the assets of a bag
 
-2. http://<host>/mediaDrop/getMedia?names=media1.mov,media2.mp4&email=emailId@something.org - will copy assets from repo to default destination
+2. `http://<host>/mediaDrop/getMedia?names=media1.mov,media2.mp4&email=emailId@something.org` - will copy assets from repo to default destination
 
 ## TODO:
 1. The destination to copy files should be made a query parameter
