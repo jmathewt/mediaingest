@@ -13,22 +13,22 @@ import javax.validation.constraints.NotNull;
 @Entity
 @Table(name = "sources")
 public class Source {
-  
+
   @Id
   @GeneratedValue(strategy = GenerationType.AUTO)
   private int id;
-  
+
   @NotNull
   private String uuid;
-  
+
   @NotNull
   private String name;
-  
+
   @NotNull
   private Date created_at;
-  
+
   private boolean is_processed;
-  
+
   @NotNull
   private String source;
 
@@ -56,7 +56,7 @@ public class Source {
     this.name = name;
   }
 
-  
+
 
   public Date getCreated_at() {
     return created_at;

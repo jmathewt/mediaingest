@@ -14,44 +14,44 @@ import javax.validation.constraints.NotNull;
 @Entity
 @Table(name = "assets")
 public class Asset {
-  
+
   @Id
   @GeneratedValue(strategy = GenerationType.AUTO)
   private int id;
-  
+
   @NotNull
   private String name;
-  
+
   @NotNull
   private String checksum;
-  
+
   @NotNull
   private String capture_uuid;
-  
+
   @NotNull
   private Date created_at;
-  
+
   private String type;
-  
+
   private float width;
-  
+
   private float height;
-  
+
   @NotNull
   private boolean is_processed;
-  
+
   @NotNull
   private String uuid;
-  
+
   @NotNull
   private long size;
-  
+
   @NotNull
   @Column(name = "source_id")
   private int sourceId;
-  
+
   private String derivative_type;
-  
+
   @Transient
   @Column(name = "preservation_master_id")
   private int preservationMasterId;
