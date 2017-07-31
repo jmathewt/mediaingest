@@ -39,7 +39,8 @@ public class Asset {
 
   @NotNull
   private boolean is_processed;
-
+  
+  @Transient
   @NotNull
   private String uuid;
 
