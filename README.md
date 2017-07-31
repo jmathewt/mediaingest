@@ -3,7 +3,7 @@
 1. Git clone the repo
 2. In Eclipse/STS import this as a maven project
 3. Choose project -> Run As -> Run Configurations -> Environment
-4. Add values for datasource_url, datasource_username, datasource_password
+4. Add values for `datasource_url`, `datasource_username`, `datasource_password`, `base_path_to_repo` (the source of media files), `destination_path` (where the media files should be saved), `email_password` (email account password from where the report has to be sent), `email_username` (email account address from where the report has to be sent)
 5. Run as a spring boot app (in STS)
 
 # Endpoints
